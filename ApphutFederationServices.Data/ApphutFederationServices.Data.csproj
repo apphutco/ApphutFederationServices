@@ -47,10 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApphutFederationDbContext.cs" />
     <Compile Include="Entities\Application.cs" />
     <Compile Include="Entities\ApplicationInstitution.cs" />
     <Compile Include="Entities\ApplicationInstitutionRole.cs" />
+    <Compile Include="Entities\City.cs" />
+    <Compile Include="Entities\Country.cs" />
+    <Compile Include="Entities\Currency.cs" />
     <Compile Include="Entities\Institution.cs" />
+    <Compile Include="Entities\InstitutionPayment.cs" />
+    <Compile Include="Entities\InstitutionSubsctiption.cs" />
+    <Compile Include="Entities\PaymentMethod.cs" />
+    <Compile Include="Entities\SubscriptionScheme.cs" />
+    <Compile Include="Entities\SubscriptionType.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserType.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

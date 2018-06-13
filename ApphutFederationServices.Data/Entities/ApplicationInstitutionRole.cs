@@ -19,5 +19,9 @@ namespace ApphutFederationServices.Data.Entities
         public string RoleName { get; set; }
         public bool IsActive { get; set; }
 
+        [ForeignKey("InstitutionId")]
+        public Institution Institution { get; set; }
+        [ForeignKey("ApplicationId")]
+        public Application Application { get; set; }
     }
 }
